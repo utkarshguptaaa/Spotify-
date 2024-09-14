@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./photo/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="navoption" style="opacity:1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="navoption">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+            <div class="options">
+                <div class="liboption navoption" >
+                    <img src="./photo/library_icon.png">
+                    <a href="#">Your Library</a>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="libbox">
+                <div class="box">
+                    <p class="box-p1"> Create your first playlist</p>
+                    <p class="box-p2">Its easy we will help you</p>
+                    <button class="badge">create playlist</button>
+                </div>
+
+                <div class="box">
+                    <p class="box-p1"> Let's find some new podcast</p>
+                    <p class="box-p2">We will keep you updated</p>
+                    <button class="badge">browse podcast</button>
+                </div>
+
+            </div>
+            </div>
+        </div>
+        <div class="maincontent">
+            <div class="stickynav">
+                <div class="stickynavicons">
+                <img src="./photo/backward_icon.png">
+                <img src="./photo/forward_icon.png" class="hide" >
+            </div>
+            <div class="stickynavoptions">
+                <button class="badge navitems hide">Explore podcast</button>
+                <button class="badge navitems darkbadge"><i class="fa-solid fa-download" style="margin-right:0.5rem;"></i>Install app</button>
+                <i class="fa-solid fa-user"></i>
+            </div>
+                
+            </div>
+
+
+            
+                <h2>recently played</h2>
+                <div class="cardscontainer">
+                    <div class="card">
+                        <img src="./photo/card1img.jpeg" class="cardimg">
+                        <p class="cardtitle">TOP50-Global </p>
+                        <p class="cardinfo">your daily updates of the most played tracks</p>
+                    </div>
+                </div>
+
+                <h2>Trending now near you</h2>
+                <div class="cardscontainer">
+                    <div class="card">
+                        <img src="./photo/card2img.jpeg" class="cardimg">
+                        <p class="cardtitle">TOP50-Global </p>
+                        <p class="cardinfo">your daily updates of the most played tracks</p>
+                    </div>
+                
+
+
+                
+                    <div class="card">
+                        <img src="./photo/card3img.jpeg" class="cardimg">
+                        <p class="cardtitle">TOP50-Global </p>
+                        <p class="cardinfo">your daily updates of the most played tracks</p>
+                    </div>
+                
+
+                
+                    <div class="card">
+                        <img src="./photo/card4img.jpeg" class="cardimg">
+                        <p class="cardtitle">TOP50-Global </p>
+                        <p class="cardinfo">your daily updates of the most played tracks</p>
+                    </div>
+                
+
+                <div class="card">
+                    <img src="./photo/card2img.jpeg" class="cardimg">
+                    <p class="cardtitle">TOP50-Global </p>
+                    <p class="cardinfo">your daily updates of the most played tracks</p>
+                </div>
+
+                <div class="card">
+                    <img src="./photo/card3img.jpeg" class="cardimg">
+                    <p class="cardtitle">TOP50-Global </p>
+                    <p class="cardinfo">your daily updates of the most played tracks</p>
+                </div>
+            </div>
+
+
+                <h2>Featured Card</h2>
+                <div class="cardscontainer">
+                    <div class="card">
+                        <img src="./photo/card5img.jpeg" class="cardimg">
+                        <p class="cardtitle">TOP songs India </p>
+                        <p class="cardinfo">your daily updates of the most played tracks</p>
+                    </div>
+                
+
+
+                
+                    <div class="card">
+                        <img src="./photo/card6img.jpeg" class="cardimg">
+                        <p class="cardtitle">TOP songs global </p>
+                        <p class="cardinfo">your daily updates of the most played tracks</p>
+                    </div>
+                
+
+                
+                    <div class="card">
+                        <img src="./photo/card1img.jpeg" class="cardimg">
+                        <p class="cardtitle">TOP50-Global </p>
+                        <p class="cardinfo">your daily updates of the most played tracks</p>
+                    </div>
+                </div>
+               
+
+
+                <div class="navfooter">
+                    <div class="line">
+
+                    </div>
+                </div>
+
+                
+
+            
+        </div>
+        <div class="musicplayer">
+            <div class="album">
+                <img src="./photo/album_picture.jpeg" >
+                
+                <p class="albumtitle" style="text-align: center;">DAYLIGHT</p>
+                
+                <p class="albuminfo" style="text-align: center;">your fav</p>
+                 <img src="./photo/album_icon1.png" class="i1">   
+                 <img src="./photo/album_icon2.png" class="i1">  
+                
+           
+            
+            </div>
+
+
+            <div class="player">
+                <div class="playercontrol">
+                    <img src="./photo/player_icon1.png" class="playercontroli">
+                    <img src="./photo/player_icon2.png" class="playercontroli">
+                    <img src="./photo/player_icon3.png" class="playercontroli" style="opacity: 1; height:2rem">
+                    <img src="./photo/player_icon4.png" class="playercontroli">
+                    <img src="./photo/player_icon5.png" class="playercontroli">
+                </div>
+                <div class="playbackbar">
+                    <span class="currtime">00:00</span>
+                    <input type="range" min="0" max="100" class="progressbar" step="1">
+                    <span class="tottime">3:33</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <div class="control1">
+                    <img src="./photo/controls_icon1.png" class="c1" >
+                    <img src="./photo/controls_icon2.png" class="c1" >
+                    <img src="./photo/controls_icon3.png" class="c1" >
+                    <img src="./photo/controls_icon4.png" class="c1" >
+                    <img src="./photo/controls_icon5.png" class="c1" >
+                   
+
+                </div>
+                <div class="bar">
+                    <span class="currtime">00:00</span>
+                    <input type="range" min="0" max="100" step="1">
+                    <span class="tottime">3:33</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
